@@ -1,0 +1,12 @@
+# GLIA-Net Environment Requirements
+torch>=2.4.0
+torchvision
+tensorboardX
+medpy
+SimpleITK
+PyYAML
+pillow
+colorlog
+numpy
+scipy
+gdown

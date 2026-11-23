@@ -1,0 +1,27 @@
+# Vessel-aware aneurysm detection using multi-scale deformable 3D attention Requirements
+torch>=2.4.0
+torchvision
+torchaudio
+numpy
+SimpleITK
+tabulate
+pandas
+scipy
+scikit-image
+nibabel
+einops
+scikit-learn
+transformers
+pytorch-lightning
+datasets
+edt
+torchio==0.20.2
+opencv-python
+matplotlib
+seaborn
+termcolor
+yacs
+fvcore
+iopath
+gdown
+packaging

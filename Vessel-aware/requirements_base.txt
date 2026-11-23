@@ -1,0 +1,24 @@
+numpy
+SimpleITK
+tabulate
+pandas
+scipy
+scikit-image
+nibabel
+jupyter
+einops
+scikit-learn
+torch-tb-profiler
+transformers
+pytorch-lightning
+datasets
+edt
+torchio==0.20.2 # newer versions cause a memory leak issue!
+bitsandbytes
+opencv-python
+matplotlib
+seaborn
+ipykernel
+termcolor
+antspyx
+# python -m pip install 'git+https://github.com/facebookresearch/detectron2.git'

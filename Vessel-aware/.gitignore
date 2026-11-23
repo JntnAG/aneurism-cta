@@ -1,0 +1,17 @@
+outputs/
+*__pycache__*
+.vscode*
+output/
+logs/
+results/
+*.pth
+outputs/
+*.out
+*.pkl
+model_weights/*
+.old
+.prev
+*.pickle
+.cache
+*.nii.gz
+SyN_iteration9_antsBTPtemplate1.nii.gz

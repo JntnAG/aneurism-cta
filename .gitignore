@@ -1,0 +1,78 @@
+# ==============================================================================
+# Unified Aneurysm CTA Monorepo .gitignore
+# ==============================================================================
+
+# Virtual Environments
+.venv/
+*/.venv/
+venv/
+*/venv/
+env/
+*/env/
+ENV/
+
+# Python cache & artifacts
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+
+# Pretrained model weights and large checkpoints (GitHub 100MB limit)
+# Instructions and scripts to download these are in each project's README
+*.pth
+*.pt
+*.ckpt
+*.bin
+*.safetensors
+*.onnx
+*.h5
+*.zst
+
+# Model weights directories
+**/model_weights/
+**/weights/
+**/ckpt/
+rsna2025/logs/train/runs/
+rsna2025/logs/nnUNet_results/Dataset001_VesselSegmentation/**/*.pth
+rsna2025/logs/nnUNet_results/Dataset003_VesselGrouping/**/*.pth
+
+# Wandb and large training logs
+wandb/
+**/wandb/
+*.wandb
+*.log
+
+# Sensitive credentials
+kaggle.json
+**/kaggle.json
+*.pem
+*.key
+.env.local
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.idea/
+.vscode/
+*.swp
+*~
