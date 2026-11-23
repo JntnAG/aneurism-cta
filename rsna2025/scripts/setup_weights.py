@@ -2,8 +2,9 @@ import os
 import shutil
 from pathlib import Path
 
-cache_dir = Path(r"C:\Users\usuario\.cache\kagglehub\datasets\tomoon33")
-workspace_logs = Path(r"D:\archivos a drapp\neuromi2\aneurism cta\rsna2025\logs")
+# General portable directories (user home cache and current project logs)
+cache_dir = Path.home() / ".cache" / "kagglehub" / "datasets" / "tomoon33"
+workspace_logs = Path(__file__).resolve().parent.parent / "logs"
 
 mappings = [
     (

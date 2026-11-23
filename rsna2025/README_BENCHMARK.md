@@ -86,7 +86,7 @@ rsna2025/
 
 ## 3. Activación del Entorno Virtual (.venv)
 
-Abre una terminal de PowerShell dentro de esta carpeta (`d:\archivos a drapp\neuromi2\aneurism cta\rsna2025`) y activa el entorno:
+Abre una terminal dentro de la carpeta `rsna2025` y activa el entorno:
 
 ```powershell
 .\.venv\Scripts\Activate.ps1
