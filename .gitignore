@@ -50,9 +50,8 @@ wheels/
 **/model_weights/
 **/weights/
 **/ckpt/
-rsna2025/logs/train/runs/
-rsna2025/logs/nnUNet_results/Dataset001_VesselSegmentation/**/*.pth
-rsna2025/logs/nnUNet_results/Dataset003_VesselGrouping/**/*.pth
+rsna2025/logs/
+!rsna2025/logs/.gitkeep
 
 # Wandb and large training logs
 wandb/
